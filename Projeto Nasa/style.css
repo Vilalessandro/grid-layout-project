@@ -13,7 +13,40 @@ body {
     text-align: center;
 }
 
+#blocoUm {
+    margin: 0px 100px 0px 100px;
+    background-color: teal;
+}
+
 #containerUm {
-    margin: 10px;
+    width: 50vw;
     background-color: darkgray;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.primeiro {
+    width: 22vw;
+    height: 200px;
+    padding: 15px;
+    margin: 5px;
+    background-color: black;
+    color: #ffffff;
+}
+
+.segundo {
+    width: 22vw;
+    height: 200px;
+    padding: 15px;
+    margin: 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#containerDois {
+    width: 50vw;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+    
 }

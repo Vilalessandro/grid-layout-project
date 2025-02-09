@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,7 +11,8 @@ body {
 
 #title {
     padding: 15px;
-    text-align: center;
+    background-color: #ffffff;
+    text-align: start;
 }
 
 #blocoUm {
@@ -54,25 +56,23 @@ body {
 
 #containerDois {
     width: 18vw;
-    /*min-width: 130px;*/
+    min-width: 130px;
     background-color: yellow;
     display: flex;
     flex-flow: column wrap;
-    
+    flex-basis: auto;        
 }
 
 .terceiro {
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     background-color: tomato;
-    align-self: auto;
-    flex: 1 1 10px;
+    flex: 1 1 auto;
 }
 
 .quarto {
-    padding: 15px;
+    padding: 10px;
     margin: 5px;
     background-color: tomato;
-    align-self: auto;
-    flex: 1 1 10px;
+    flex: 1 1 auto;
 }

@@ -14,39 +14,65 @@ body {
 }
 
 #blocoUm {
-    margin: 0px 100px 0px 100px;
+    margin: auto;
     background-color: teal;
-}
-
-#containerUm {
-    width: 50vw;
-    background-color: darkgray;
-    display: flex;
+    width: 73vw;
+    height: 50vh;
+    display: flex;  
     flex-flow: row wrap;
 }
 
+#containerUm {
+    width: 55vw;
+    background-color: darkgray;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: auto;
+}
+
 .primeiro {
-    width: 22vw;
-    height: 200px;
+    width: auto;
+    height: auto;
     padding: 15px;
     margin: 5px;
     background-color: black;
     color: #ffffff;
+    flex: 1 1 250px;
+    
 }
 
 .segundo {
-    width: 22vw;
-    height: 200px;
+    width: auto;
+    height: auto;
     padding: 15px;
     margin: 5px;
     background-color: #000000;
     color: #ffffff;
+    flex: 1 1 50px;
+    
 }
 
 #containerDois {
-    width: 50vw;
+    width: 18vw;
+    /*min-width: 130px;*/
     background-color: yellow;
     display: flex;
     flex-flow: column wrap;
     
+}
+
+.terceiro {
+    padding: 15px;
+    margin: 5px;
+    background-color: tomato;
+    align-self: auto;
+    flex: 1 1 10px;
+}
+
+.quarto {
+    padding: 15px;
+    margin: 5px;
+    background-color: tomato;
+    align-self: auto;
+    flex: 1 1 10px;
 }

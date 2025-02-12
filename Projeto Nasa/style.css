@@ -9,19 +9,22 @@ body {
     background-color: aqua;
 }
 
-#title {
+header {
+    margin: 20px;
     padding: 15px;
+    width: 73vw;
     background-color: #ffffff;
-    text-align: start;
+    text-align: left;
+    justify-self: center;
 }
 
-#blocoUm {
-    margin: auto;
+#blocoUm {    
     background-color: teal;
     width: 73vw;
     height: 50vh;
     display: flex;  
     flex-flow: row wrap;
+    justify-self: center;
 }
 
 #containerUm {

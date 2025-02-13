@@ -19,6 +19,7 @@ header {
 }
 
 #blocoUm {    
+    position: relative;
     background-color: teal;
     width: 73vw;
     height: 50vh;
@@ -28,7 +29,10 @@ header {
 }
 
 #containerUm {
+    position: absolute;
+    left: 0px;
     width: 55vw;
+    height: 100%;
     background-color: darkgray;
     display: flex;
     flex-flow: row wrap;
@@ -58,7 +62,10 @@ header {
 }
 
 #containerDois {
+    position: absolute;
+    right: 0px;
     width: 18vw;
+    height: 100%;
     min-width: 130px;
     background-color: yellow;
     display: flex;
@@ -67,6 +74,8 @@ header {
 }
 
 .terceiro {
+    width: auto;
+    height: auto;
     padding: 10px;
     margin: 5px;
     background-color: tomato;
@@ -74,6 +83,8 @@ header {
 }
 
 .quarto {
+    width: auto;
+    height: auto;
     padding: 10px;
     margin: 5px;
     background-color: tomato;

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: #ffffff;
 }
 
 header {
@@ -89,50 +89,94 @@ header {
     display: flex;
     flex-flow: row wrap;
     width: 80vw;
-    height: 15vh;
+    height: 16vh;
     margin-top: 20px;
-    background-color: violet;    
 }
 
 #containerTres > div > img {
     display: flex;
-    width: 15%;
-    height: 30%;
+    width: 30%;
+    height: 80%;
     background-color: #000000;
     border-radius: 100%;
-    margin: 10px;
+    margin: 10px 0px 0px 5px;
+    object-fit: cover;
 }
 
 #containerTres > div > p {
     display: flex;
     flex: auto;
-    background-color: #000000;
-    color: #ffffff;
+    color: #000000;
     padding: 5px;
     margin: 5px;
-    width: 50%
+    width: 50%;
+    text-align: ;
 }
 
 #item1 {
     display: flex;
-    background-color: chartreuse;
     width: 25%;
+    align-items: center;
+}
+
+#item1 > span {
+    width: 30%;
+    height: 80%;
+    background-image: url(https://media.istockphoto.com/id/1166610392/pt/foto/a-shuttle-spaceship-taking-off.jpg?s=1024x1024&w=is&k=20&c=e0NcthGI_ajmjm9HLs4gcR73jIKp4ups4v8XaVECtso=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 10px 0px 0px 5px;
 }
 
 #item2 {
     display: flex;
-    background-color: blue;
     width: 25%;
+    align-items: center;
+}
+
+#item2 > span {
+    width: 30%;
+    height: 80%;
+    background-image: url(https://i.pinimg.com/736x/a7/82/3d/a7823d712f6ebb4db8d0aa26385a4368.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 10px 0px 0px 5px;
 }
 
 #item3 {
     display: flex;
-    background-color: cornflowerblue;
     width: 25%;
+    align-items: center;    
+}
+
+#item3 > span {
+    width: 30%;
+    height: 80%;
+    background-image: url(https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 10px 0px 0px 5px;
 }
 
 #item4 {
     display: flex;
-    background-color: darkred;
     width: 25%;
+    align-items: center;
+}
+
+#item4 > span {
+    width: 30%;
+    height: 80%;
+    background-image: url(https://i.pinimg.com/736x/10/f8/5e/10f85e640d4fd0547cab09f72e4685df.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    margin: 10px 0px 0px 5px;
 }

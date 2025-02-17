@@ -20,7 +20,6 @@ header {
 
 #blocoGeral {    
     position: relative;
-    background-color: teal;
     width: 80vw;
     height: 55vh;
     display: flex;  
@@ -31,13 +30,16 @@ header {
 #containerUm {
     width: 55vw;
     height: 100%;
-    background-color: darkgray;
     display: flex;
     flex-flow: row wrap;
     flex-basis: auto;
 }
 
 #containerUm > .primeiro {
+    background-image: url(http://nasa.gov/wp-content/uploads/2023/04/jsc2023e016432_alt4_0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     width: auto;
     height: auto;
     padding: 15px;
@@ -49,6 +51,10 @@ header {
 }
 
 #containerUm > .segundo {
+    background-image: url(https://hbr.org/resources/images/article_assets/2018/04/apr18-20-nasa-apollo-proj-archive-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     width: auto;
     height: auto;
     padding: 15px;

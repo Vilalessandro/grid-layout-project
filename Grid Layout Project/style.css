@@ -15,24 +15,40 @@ header {
 }
 
 nav {
+    height: 62px;
+    background-image: linear-gradient(to right, #9FBBCC, #3f79c0 );
+}
+
+nav > ul {
+    text-transform: uppercase;
+    font-weight: 1em;
+    padding: 8px 0px;
     margin: 20px;
+}
+
+nav > ul > input {
+    
+    height: 30px;
+    width: 150px;
+    padding-left: 35px;
+    background-image: url(Hopstarter-Scrap-Magnifying-Glass.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 a {
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    text-decoration-line: none;
-    background-color: #80808081;
-    color: #ffffff;
-    border: 1px solid #000000;
+    font-size: 1.2em;
+    color: #000000;
     border-radius: 8px 8px ;
 }
 
 a:hover {
-    background-color: #808080;
+    background-color: #3f79c077;
     color: #000000;
-    border: 1px solid #000000;
+    transition: 0.5s;
 }
 
 main {

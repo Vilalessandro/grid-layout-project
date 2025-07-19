@@ -1,82 +1,59 @@
 @charset "UTF-8";
 
-
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.container-one {  
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "main main aside"
+        "main main aside"
+        "footer footer footer"
+    ;
+    grid-template-rows: 100px 50px 380px 30px;
+    grid-template-columns: repeat(2, 2fr) 150px;
 }
 
 header {
-    border: 2px solid rebeccapurple;
-    padding: 20px;
-    margin: 20px;
+    grid-area: header;
+    background-color: springgreen;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
 }
 
 nav {
-    height: 62px;
-    background-image: linear-gradient(to right, #9FBBCC, #3f79c0 );
-}
-
-nav > ul {
-    padding-top: 18px;
-    text-align: center;   
-    text-transform: uppercase;
-    font-weight: 1em;   
-}
-
-input {
-    float: right;
-    height: 30px;
-    width: 200px;
-    padding-left: 30px;
-    margin-right: 20px;
-    margin-left: 35px;
-    background: #ffffff url(Hopstarter-Scrap-Magnifying-Glass.ico) no-repeat;
-    background-size: contain;
-  
-}
-
-a {
+    grid-area: nav;
+    background-color: blue;
     padding: 10px;
-    text-decoration: none;
-    font-size: 1.2em;
-    color: #000000;
-    border-radius: 8px 8px ;
-}
-
-a:hover {
-    background-color: #3f79c0f1;
-    color: #000000;
-    transition: 0.5s;
 }
 
 main {
-    display: grid;
-    grid-template-columns: auto auto; 
-    grid-template-rows: auto auto;
-    gap: 7px    ;
-    border: 2px dashed green;
-    padding: 20px;
-    margin: 20px;
+    grid-area: main;
+    background-color: tomato;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
 }
 
-.content {    
-    border: 1px solid black;
-    padding: 15px;
+aside {
+    grid-area: aside;    
 }
 
 footer {
-    text-align: center;
-    font-size: 1em;
-    text-shadow: 10px 5px 10px #00000077;
-    color: #ffffff;
-    background-color: #3f79c0;
-    padding: 20px;
-    box-shadow: 1px;
-    
+    grid-area: footer;
+    background-color: slateblue;
+    padding: 10px;
+}
+
+.container-two {
+    background-color: peru;
+    padding: 10px;
+    margin: 10px;
 }

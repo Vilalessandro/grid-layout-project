@@ -13,7 +13,6 @@ body {
 
 .container-one {  
     display: grid;
-    gap: 5px;
     grid-template-areas:
         "header header header"
         "nav nav nav"

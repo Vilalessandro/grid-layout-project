@@ -1,8 +1,4 @@
 @media screen and (max-width: 600px) {
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #FAF4D3;
-    }
     .container-one {
         display: grid;
         grid-template-areas: 
@@ -12,7 +8,7 @@
             "aside"
             "footer"
         ;
-        grid-template-rows: 75px 50px 1fr auto;
+        grid-template-rows: 75px 50px 1fr 400px 70px;
         grid-template-columns: 1fr;
     }
 
@@ -55,6 +51,10 @@
         margin-bottom: 15px;
         padding: 10px;
     }
+
+    main > picture > img {
+        width: 75vw;
+    }
     
     aside {
         display: flex;
@@ -64,22 +64,20 @@
     }
 
     aside > .aside-one {
-        width: 49%;
-        height: 300px;
+        width: 45vw;
+        height: auto;
         color: #ffffff;
         padding: 10px;
         border-radius: 0px 15px 15px 0px;
-        background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3X8oda0b6QFH8y0d6OBnUtWTnKMJmAC2-IQNtNQMmXgSwtERGriJ1SCW6iaJHUs27AGY1bSuBG4dh9ru0wYFYFn8HCuuyohn43RC0PfJQtZZ8uvSQX9Dd_-yM6n6UMQfL8notuiV4znE/s1600/leao.jpg");
         background-position: center center;
     }
 
     aside > .aside-two {
-        background-color: #4C4C4C;
-        width: 49%;
+        width: 45vw;
+        height: auto;
         color: #000000;
         padding: 10px;
         border-radius: 15px 0px 0px 15px;
-        background-image: url("https://media.istockphoto.com/id/958471082/pt/foto/prime-lambs-on-green-grass.jpg?s=612x612&w=0&k=20&c=EtJThKJpuFaCcxWUTE_jnH2Wf5-vREQf_I1YRUdgV7U=");
         background-position: center center;
     }
 
@@ -89,8 +87,9 @@
     
     footer { 
         text-align: center;
-        text-shadow: 2px 1px #00000098;
-        color: #ffffff;
+        text-shadow: 1px 1px #00000098;
+        color: #000000;
         margin-top: 15px;
+        align-content: center;
     }
 }

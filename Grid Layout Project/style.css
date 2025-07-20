@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAF4D3;
+}
+
 .container-one {  
     display: grid;
     gap: 5px;
@@ -16,40 +21,106 @@
         "main main aside"
         "footer footer footer"
     ;
-    grid-template-rows: 100px 50px 380px 30px;
-    grid-template-columns: repeat(2, 2fr) 150px;
+    grid-template-rows: 100px 50px 1fr 30px;
+    grid-template-columns: repeat(2, 2fr) 250px;
 }
 
 header {
     grid-area: header;
-    background-color: springgreen;
-    padding: 10px;
+    background-color: #D1AC00;
+    color: #ffffff;
+    font-size: larger;
     text-align: center;
+    font-variant: small-caps;
+    padding: 10px;
     align-content: center;
 }
 
 nav {
     grid-area: nav;
-    background-color: blue;
-    padding: 10px;
+    background-color: #573D1C;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;    
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-inline-end: 40px;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #9c5900;
+    transition: 0.5s;
 }
 
 main {
     grid-area: main;
-    background-color: tomato;
-    padding: 10px;
+    background-color: #FAF4D3;
+    padding: 20px;
     text-align: center;
     align-content: center;
 }
 
+main > h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+main > p {
+    text-align: left;
+    text-indent: 30px;
+}
+
+main > picture > img {
+    width: 50vw;
+    margin-top: 20px;
+}
+
 aside {
-    grid-area: aside;    
+    grid-area: aside;   
+    display: flex;
+    flex-flow: column nowrap; 
+    margin: 10px 10px 10px 0px;
+    padding: 5px; 
+    text-align: right;
+    font-size: larger;
+    gap: 10px;
+}
+
+.aside-one {
+    background-color: #D1AC00;
+    height: 100%;
+    padding: 10px;
+    color: #ffffff;
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3X8oda0b6QFH8y0d6OBnUtWTnKMJmAC2-IQNtNQMmXgSwtERGriJ1SCW6iaJHUs27AGY1bSuBG4dh9ru0wYFYFn8HCuuyohn43RC0PfJQtZZ8uvSQX9Dd_-yM6n6UMQfL8notuiV4znE/s1600/leao.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.aside-two {
+    background-color: steelblue;
+    height: 100%;
+    padding: 10px;
+    background-image: url("https://media.istockphoto.com/id/958471082/pt/foto/prime-lambs-on-green-grass.jpg?s=612x612&w=0&k=20&c=EtJThKJpuFaCcxWUTE_jnH2Wf5-vREQf_I1YRUdgV7U=");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 footer {
     grid-area: footer;
-    background-color: slateblue;
+    background-color: #d1ab006e;
     padding: 10px;
+    text-align: center;
+    font-size: large;
 }
 
 .container-two {

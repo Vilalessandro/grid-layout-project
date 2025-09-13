@@ -11,7 +11,8 @@
         grid-template-rows: 150px 50px 1fr 500px 70px;
         grid-template-columns: auto;
     }
-
+    
+    /*Hide the scrollbar*/
     ::-webkit-scrollbar {
         display: none;
     }
@@ -28,6 +29,7 @@
         align-content: center;
     }
     
+    /*This part refers to the items within the nav*/
     #ref {
         background-color: #573D1C;
         color: #ffffff;
@@ -64,7 +66,7 @@
     }
 
     aside > .aside-one {
-        width: 45vw;
+        width: 44vw;
         height: auto;
         color: #ffffff;
         padding: 10px;
@@ -73,7 +75,7 @@
     }
 
     aside > .aside-two {
-        width: 45vw;
+        width: 44vw;
         height: auto;
         color: #000000;
         padding: 10px;

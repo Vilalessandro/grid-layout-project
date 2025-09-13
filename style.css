@@ -42,6 +42,7 @@ nav {
     align-content: center;
     justify-content: center;
     padding: 10px;    
+    
 }
 
 nav > a {
@@ -102,6 +103,12 @@ aside {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    transition: transform 0.4s ease ;
+}
+
+/*Move the mouse when hovering over the image.*/
+.aside-one:hover {
+    transform: scale(0.9);
 }
 
 .aside-two {
@@ -113,6 +120,12 @@ aside {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    transition: transform 0.4s ease ;
+}
+
+/*Move the mouse when hovering over the image.*/
+.aside-two:hover {
+    transform: scale(0.9);
 }
 
 footer {
@@ -121,4 +134,8 @@ footer {
     text-align: center;
     padding: 6px;
     font-size: 1.9em;
+}
+
+footer a:hover{
+    color: #9c5900;
 }

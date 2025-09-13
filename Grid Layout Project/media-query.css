@@ -81,6 +81,10 @@
         background-position: center center;
     }
 
+    aside > .aside-one > p {
+        text-align: left;
+    }
+
     aside > .aside-two > p {
         text-align: right;
     }

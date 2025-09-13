@@ -23,7 +23,7 @@
     }
 
     nav {
-        background-color: #573D1C;
+        background-color: hsl(34, 51%, 23%);
         text-align: center;
         align-content: center;
     }
@@ -64,7 +64,7 @@
     }
 
     aside > .aside-one {
-        width: 45vw;
+        width: 46vw;
         height: auto;
         color: #ffffff;
         padding: 10px;
@@ -73,7 +73,7 @@
     }
 
     aside > .aside-two {
-        width: 45vw;
+        width: 46vw;
         height: auto;
         color: #000000;
         padding: 10px;

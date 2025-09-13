@@ -8,8 +8,8 @@
             "aside"
             "footer"
         ;
-        grid-template-rows: 75px 50px 1fr 400px 70px;
-        grid-template-columns: 1fr;
+        grid-template-rows: 100px 50px 1fr 450px 70px;
+        grid-template-columns: auto;
     }
 
     ::-webkit-scrollbar {
